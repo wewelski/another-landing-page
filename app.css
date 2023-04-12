@@ -11,7 +11,7 @@
 main {
     background-color: #1f2937;
     height: 100vh;
-    padding: 5px 10%;
+    padding: 3ch 20ch;
 }
 
 main nav {
@@ -26,9 +26,11 @@ nav .links {
 }
 
 .hero {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 20% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20ch 0;
+    gap: 5rem;
 }
 
 .header-logo h1 {
@@ -39,10 +41,6 @@ nav .links {
 .hero-text h2 {
     color: #f9faf8;
     font-size: 48px;
-}
-
-.hero-text {
-    padding-right: 4rem;
 }
 
 .hero-text p {
@@ -62,14 +60,15 @@ nav .links {
     padding: 5px 30px;
 }
 
-.hero figure p {
-    padding: 100px 0;
+.hero figure img {
+    border-radius: 1rem;
 }
 
-.hero figure {
-    color: #e5e7eb;
-    text-align: center;
-    background-color: #6D747D;
+.hero figure figcaption {
+    color: #f9faf8;
+    font-size: 8px;
+    font-style: italic;
+    text-align: right;
 }
 
 footer {
@@ -79,11 +78,10 @@ footer {
 
 .grid-section {
     text-align: center;
-    padding-bottom: 10rem;
+    padding: 10ch 20ch;
 }
 
 .grid-section h2 {
-    padding: 2rem 0;
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
@@ -91,6 +89,7 @@ footer {
 
 .grid-area {
     display: flex;
+    padding: 5ch 0;
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -104,7 +103,7 @@ footer {
 }
 
 .quote-area {
-    padding: 8% 21%;
+    padding: 10% 31%;
     background-color: #e5e7eb;
 }
 
@@ -116,14 +115,24 @@ footer {
 
 .quote-area h4 {
     text-align: end;
-    margin: 7px 30px 0 0;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 20ch;
 }
 
 .card {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 10ch 15ch;
+    border-radius: 1.2rem;
+    gap: 5rem;
 }
 
-.card button {
+.call-to-action button {
     padding: 5px 30px;
 }
