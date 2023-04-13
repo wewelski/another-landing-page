@@ -1,1 +1,1 @@
-# another-landing-page
+# TheOdinProject - Landing Page activity
